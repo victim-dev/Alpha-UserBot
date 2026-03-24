@@ -1,6 +1,9 @@
 pyrogram==2.0.106
 tgcrypto==1.2.5
 
+# AI
+openai
+
 # Async + API
 aiohttp==3.9.5
 requests==2.31.0
@@ -10,6 +13,7 @@ python-dotenv==1.0.1
 
 # Utilities
 python-dateutil==2.8.2
+psutil
 motor==3.3.2
 
 # Media / Files
@@ -26,3 +30,4 @@ lxml==5.2.1
 wikipedia==1.4.0
 googletrans==4.0.0-rc1
 cinemagoer==2023.5.1
+colorama
