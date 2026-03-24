@@ -1,0 +1,9 @@
+{
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "installCommand": "python -m venv venv && . venv/bin/activate && pip install -r requirements.txt"
+}
